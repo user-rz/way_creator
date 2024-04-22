@@ -51,7 +51,7 @@ class MyWindow(QtWidgets.QWidget):
 
         self.setLayout(self.vertical_layout)
 
-        self.pixmap = QtGui.QPixmap('./venv/map.jpg')
+        self.pixmap = QtGui.QPixmap('map.jpg')
 
 
         self.scene = QtWidgets.QGraphicsScene()
